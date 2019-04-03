@@ -1,0 +1,243 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://hogwarts-as-a-service.herokuapp.com/api/v1/house
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 03 Apr 2019 20:34:28 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1f0e4d19c49b062682b5e26a84d2ddd5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 33daf467-4363-4e46-a02c-12a68923176d
+      X-Runtime:
+      - '0.008439'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Gryffindor"},{"id":2,"name":"Ravenclaw"},{"id":3,"name":"Hufflepuff"},{"id":4,"name":"Slytherin"}]'
+    http_version: 
+  recorded_at: Wed, 03 Apr 2019 20:34:28 GMT
+- request:
+    method: get
+    uri: http://hogwarts-as-a-service.herokuapp.com/api/v1/house/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 03 Apr 2019 20:34:28 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cdd088694e5d7f0db038aab9bece337e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0be3b025-9f90-4844-980f-2edce22df3d5
+      X-Runtime:
+      - '0.032343'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":52,"name":"Gormlaith Gaunt"},{"id":53,"name":"Corvinus Gaunt"},{"id":54,"name":"Phineas
+        Black"},{"id":55,"name":"Leta Letsrange"},{"id":56,"name":"Cassiopeia Black"},{"id":57,"name":"Lucretia
+        Black"},{"id":58,"name":"Horace Slughorn"},{"id":59,"name":"Tom Riddle"},{"id":60,"name":"Lestrange"},{"id":61,"name":"Avery"},{"id":62,"name":"Orion
+        Black"},{"id":63,"name":"Lucius Malfoy"},{"id":64,"name":"Narcissa Black"},{"id":65,"name":"Severus
+        Snape"},{"id":66,"name":"Felix Rosier"},{"id":67,"name":"Barnaby Lee"},{"id":68,"name":"Draco
+        Malfoy"},{"id":69,"name":"Vincent Crabbe"},{"id":70,"name":"Gregory Goyle"},{"id":71,"name":"Millicent
+        Bulstrode"},{"id":72,"name":"Pansy Parkinson"},{"id":73,"name":"Blaise Sabini"}]'
+    http_version: 
+  recorded_at: Wed, 03 Apr 2019 20:34:28 GMT
+- request:
+    method: get
+    uri: http://hogwarts-as-a-service.herokuapp.com/api/v1/house
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 03 Apr 2019 20:34:28 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1f0e4d19c49b062682b5e26a84d2ddd5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ec0be57c-7b09-46ef-af7e-de84fda4ef28
+      X-Runtime:
+      - '0.006893'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":1,"name":"Gryffindor"},{"id":2,"name":"Ravenclaw"},{"id":3,"name":"Hufflepuff"},{"id":4,"name":"Slytherin"}]'
+    http_version: 
+  recorded_at: Wed, 03 Apr 2019 20:34:29 GMT
+- request:
+    method: get
+    uri: http://hogwarts-as-a-service.herokuapp.com/api/v1/house/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Api-Key:
+      - "<API_KEY>"
+      User-Agent:
+      - Faraday v0.15.4
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 03 Apr 2019 20:34:28 GMT
+      Connection:
+      - keep-alive
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Download-Options:
+      - noopen
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      Referrer-Policy:
+      - strict-origin-when-cross-origin
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cdd088694e5d7f0db038aab9bece337e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1c54a7b5-88df-459f-8bc5-ce4988a12186
+      X-Runtime:
+      - '0.047816'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '[{"id":52,"name":"Gormlaith Gaunt"},{"id":53,"name":"Corvinus Gaunt"},{"id":54,"name":"Phineas
+        Black"},{"id":55,"name":"Leta Letsrange"},{"id":56,"name":"Cassiopeia Black"},{"id":57,"name":"Lucretia
+        Black"},{"id":58,"name":"Horace Slughorn"},{"id":59,"name":"Tom Riddle"},{"id":60,"name":"Lestrange"},{"id":61,"name":"Avery"},{"id":62,"name":"Orion
+        Black"},{"id":63,"name":"Lucius Malfoy"},{"id":64,"name":"Narcissa Black"},{"id":65,"name":"Severus
+        Snape"},{"id":66,"name":"Felix Rosier"},{"id":67,"name":"Barnaby Lee"},{"id":68,"name":"Draco
+        Malfoy"},{"id":69,"name":"Vincent Crabbe"},{"id":70,"name":"Gregory Goyle"},{"id":71,"name":"Millicent
+        Bulstrode"},{"id":72,"name":"Pansy Parkinson"},{"id":73,"name":"Blaise Sabini"}]'
+    http_version: 
+  recorded_at: Wed, 03 Apr 2019 20:34:29 GMT
+recorded_with: VCR 4.0.0

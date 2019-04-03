@@ -11,9 +11,16 @@ gem 'uglifier', '>= 1.3.0'
 
 gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
+gem 'figaro'
+gem 'faraday'
 
 group :development, :test do
   gem 'pry'
+  gem 'capybara'
+  gem 'launchy'
+  gem 'rspec-rails'
+  gem 'vcr'
+  gem 'webmock'
 end
 
 group :test do
